@@ -1,20 +1,18 @@
-# Deploy Screenshot Generator to Edgio
-
-A deployment of Screenshot Generator to Edgio.
+# On-Demand Web Vitals API
 
 ## Demo
 
-https://rishi-raj-jain-screenshot-default.layer0-limelight.link/api?url=https://ijcai-faircop-default.layer0-limelight.link
+https://rishi-raj-jain-web-vitals-serverless-default.layer0-limelight.link?url=https://ijcai-faircop-default.layer0-limelight.link
 
 ## Try It Now
 
-[![Deploy with Edgio](https://docs.edg.io/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/rishi-raj-jain/GrabScreen)
+[![Deploy with Edgio](https://docs.edg.io/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/rishi-raj-jain/web-vitals-serverless)
 
 ## Getting Started
 
 ### Clone This Repo
 
-Use `git clone https://github.com/rishi-raj-jain/GrabScreen.git` to get the files within this repository onto your local machine.
+Use `git clone https://github.com/rishi-raj-jain/web-vitals-serverless.git` to get the files within this repository onto your local machine.
 
 ### Install dependencies
 
@@ -31,8 +29,6 @@ Run the Express app with the command:
 ```bash
 npm run edgio:dev
 ```
-
-Load the site: [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
 ### Testing production build locally with Edgio
 
