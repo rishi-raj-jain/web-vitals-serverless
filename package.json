@@ -1,0 +1,24 @@
+{
+  "name": "web-vitals-serverless",
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "format": "prettier '**/*' --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@edgio/express": "^6.0.6",
+    "@vercel/nft": "^0.22.6",
+    "express": "^4.18.2",
+    "playwright": "^1.29.2",
+    "playwright-aws-lambda": "^0.9.0",
+    "playwright-core": "^1.29.2"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^6.0.6",
+    "@edgio/core": "^6.0.6",
+    "@edgio/devtools": "^6.0.6",
+    "@edgio/prefetch": "^6.0.6",
+    "prettier": "^2.8.3"
+  }
+}
